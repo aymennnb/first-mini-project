@@ -1,0 +1,247 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    font-family: 'Poppins', sans-serif;
+    margin:0;
+    padding:0;
+    scroll-behavior: smooth;
+}
+section{
+    width: 100%;
+    background-color: #24262b;
+}
+h3{
+    margin-left: 60px;
+    color: white;
+}
+nav{
+    padding:10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav:hover{
+    cursor: pointer;
+}
+.nav-links{
+    flex: 1;
+    margin-right: 200px;
+    text-align: right;
+}
+.nav-links ul li{
+    margin-right: 17px;
+    list-style: none;
+    display: inline-block;
+}
+nav a:hover{
+    color: red;
+}
+a{
+    text-decoration: none;
+    color: #eee;
+}
+#p1{
+    color: #ffff;
+}
+.container{
+    display: flex;
+    background-color: #24262b;
+}
+.div1,.div2 {
+    width: 50%; 
+    box-sizing: border-box; 
+    height: 550px; 
+}
+.div1 .info{
+    width: 80%;
+    margin-left: 80px;
+    margin-top: 150px;
+}
+.div1 h1{
+    color:#ffff;
+    font-size: 60px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+.div1 .boutton{
+    margin-left: 80px;
+    margin-top: 40px;
+    border-radius: 7px;
+}
+button{
+    height: 40px;
+    border: none;
+    border-radius: 7px;
+    padding: 7px 5px;
+    margin-right: 13px;
+}
+.div1 .button1{
+    width: 120px;
+    font-size: 15px;
+    background-color: transparent;
+    border: 2px solid #ffff;
+    color: #ffff;
+    padding-top: 6px;
+    transition: all 0.5s ease ,background-color 0.5s ease-in-out;
+}
+.div1 .button1:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+    color:#4A4A4A;
+    background-color: #ffff;
+}
+.div1 .button1:active{
+    transform: scale(1.09);
+}
+.div1 .button2{
+    width: 160px;
+    padding-top: 8px;
+    transition: all 0.5s ease;
+}
+.div1 .button2:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+}
+.div1 .button2:active{
+    transform: scale(1.09);
+}
+i{
+    font-size: 15px;
+}
+.container2{
+    display: flex;
+    margin-top: 30px;
+    justify-content: space-evenly;
+    align-items: baseline;
+}
+.products{
+    width: 20%;
+    border-radius: 10px;
+    background-color: black;
+    height: 300px;
+    box-shadow: 0 8px 10px black;
+    transition: transform 0.3s ease;
+}
+.products:hover{
+    transform: scale(1.01);
+}
+.photo{
+    width:250px;
+    margin: 15px 17px;
+    height: 230px;
+}
+.infoandprice{
+    width:100%;
+    height: 84px;
+}
+.bouttonpro{
+    width: 140px;
+    height: 35px;
+    border-radius: 15px;
+    margin-left: 120px;
+    margin-top:30px;
+    background-color: gold;
+    transition: all 0.3s ease;
+}
+.bouttonpro:hover{
+    transform: scale(1.03);
+    cursor: pointer;
+}
+.bouttonpro:active{
+    transform: scale(1.06);
+}
+.arn{
+    padding: 30px  30px 10px 30px;
+}
+#Waht{
+    text-align: center;
+    padding-top: 100px;
+}
+.container3{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+.client{
+    box-sizing: border-box;
+    border-radius: 15px;
+    margin-right: 30px;
+    width: 400px;
+    height: 130px; 
+    background-color: whitesmoke;
+}
+.img22{
+    display: flex;
+    width: 30px;
+    margin-top: 17px;
+    margin-left: 20px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: yellow;
+}
+.content{
+    width: 330px;
+    margin-top: -30px;
+    padding-left: 10px;
+    margin-left: 60px;
+    font-size: 11px;
+    height: 120px;
+}
+.Client1{
+    color: black;
+    margin-left: 0px;
+    margin-top: 5px;
+    padding-bottom: 7px;
+}
+.ch{
+    background-image: url("img/portrait-femme-blonde-souriante.jpg");
+    background-size:contain;
+}
+.dav{
+    background-image: url("img/bouchent-portrait-jeune-homme-barbu-chemise-blanche-veste-posant-devant-camera-large-sourire-isole-gris.jpg");
+    background-size:cover;
+}
+.container4{
+    max-width: 1170px;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 120px;
+}
+.col{
+    width: 25%;
+    position: relative;
+}
+.col h4{
+    font-size: 18px;
+    color: #ffff;
+    font-weight: 500;
+    position: relative;
+    text-transform: capitalize;
+    margin-bottom: 35px;
+}
+.col h4::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    background-color: #e91e63;
+    height: 2px;
+    box-sizing: border-box;
+    width: 50px;
+}
+.footer{
+    background-color: #24262b;
+    padding: 70px 0;
+}
+ul{
+    list-style: none;
+}
+.social-links a{
+    height: 40px;
+    width: 40px;
+    margin: 0 5px;
+    border-radius: 50%;
+    color: #ffff;
+    text-align: center;
+}

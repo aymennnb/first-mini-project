@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    font-family: 'Poppins', sans-serif;
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+body{
+    min-height: 100vh;
+    display: flex;
+}
+.container{
+    margin: auto;
+    width: 550px;
+    max-width: 90%;
+}
+.container form label{
+    font-size: 20px;
+    font-weight: 500;
+}
+.container form{
+    width: 100%;
+    height: 100%;
+    background-color: #ffff;
+    padding: 20px;
+    border: 1px solid rgb(189, 189, 189);
+    border-radius: 8px;
+}
+.container form .form-control{
+    width: 100%;
+    height: 40px;
+    border-radius: 3px;
+    margin-top: 17px;
+    border-radius: 5px;
+}
+.container form .button{
+    width: 100%;
+    height: 37px;
+    color: white;
+    font-weight: 500;
+    font-size: 14px;
+    background-color: #0013A6;
+    border-radius: 5px;
+    margin-top: 25px;
+    outline: none;
+    border: none;
+    transition: transform 0.5s ease;
+}
+.container form .button:hover{
+    cursor: pointer;
+    opacity: 0.7;
+}
+.container form .button:active{
+    transform: scale(1.05);
+}
+.container form .loginwidth{
+    text-align: center;
+    margin-top: 20px;
+    font-size:11px;
+}
+.container form .conecter{
+    margin-top: 15px;
+    width: 160px;
+    height: 45px;
+    background-color: #ffff;
+    border-radius: 4px;
+    border: 1px solid rgb(189, 189, 189);
+    transition: transform 0.5s ease;
+}
+.container form .facebook{
+    margin-right:10px;
+}
+.container form .googel{
+    margin-right: 10px;
+}
+.container form .conecter:active{
+    transform: scale(1.09);
+}
+i{
+    font-size: 25px;
+}
+.container button:hover{
+    transform: scale(1.05);
+}
+a{
+    text-decoration: none;
+    color: #0013A6;
+}
+.accept-police{
+    margin-top: 15px;
+    margin-left: 3px;
+    font-size: 12px;
+}
